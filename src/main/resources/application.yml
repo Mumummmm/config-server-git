@@ -6,6 +6,11 @@ spring:
       server:
         git:
           uri: https://github.com/Mumummmm/config-repo-demo
+          search-paths: config-repo
 
 server:
   port: 1201
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/
